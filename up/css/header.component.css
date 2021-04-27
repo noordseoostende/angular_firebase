@@ -1,1 +1,23 @@
-/* No CSS *//*# sourceMappingURL=header.component.css.map */
+.header {
+  height: 60px;
+  padding: 0 20px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.header__title {
+  font-size: 1.2em;
+  display: inline-flex;
+  align-items: center;
+}
+
+.header__navigation {
+  display: inline-flex;
+  align-items: center;
+}
+
+.app-a {
+  margin-left: 1em;
+  margin-right: 0;
+}
+/*# sourceMappingURL=header.component.css.map */
